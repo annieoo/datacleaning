@@ -59,22 +59,23 @@ The required data sets by the R script are (location and name):
 - ./data1/UCIHARDataset/column_label_transform.csv
 
 ### 5) the R script: run_analysis.R
+- download from the Github repository and transfer to the working directory.
 
 
 ## The R script: run_analysis.R
 
 * how to run the R script
-1) open R or R-Studio 
-2) at the prompt,load the dplyr library:  
-   library(dplyr)
-3) at the prompt, load/source the R script (make sure the R script is in the working directory, ie. ./data1):
-   source(“run_analysis.R”)
+-  open R or R-Studio 
+-  at the prompt,load the dplyr library:  
+   - library(dplyr)
+-  at the prompt, load/source the R script (make sure the R script is in the working directory):
+   - source(“run_analysis.R”)
    The script will run and generate a tidy data set called “TidyData.txt”.
 
 * how to read the tidy data set 
-1) the data set is in text format. Simply double click on the file to open and view the data.
-2) to make it more readable, open the file with MS-Excel. A sample tidy data set in excel format called “TidyData_excel.xlsx” can be download from the Github repository (https://github.com/annieoo/datacleaning).
-3) you may read the file using R.
+- the data set is in text format. Simply double click on the file to open and view the data.
+- to make it more readable, open the file with MS-Excel. A sample tidy data set in excel format called “TidyData_excel.xlsx” can be download from the Github repository (https://github.com/annieoo/datacleaning).
+- you may read the file using R.
    - rdfile <- read.table(“./data1/TidyData.txt”, header=TRUE)
    - head(refile) 
 
