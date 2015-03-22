@@ -94,7 +94,8 @@ fBodyGyroJerkMag_meanfBodyGyroJerkMag_std
 For how to obtain data files and their requirements, refers to README.md section (B) Pre-requisite (what is needed before running the R script).
 
 The R script programming logic:
-`1. read in all 8 data files:
+
+1. read in all 8 data files:
    - test data set (X_test.txt), test subject data set (subject_text.txt), test activity data set (y_test.txt)
    - training data set (X_train.txt), training subject data set (subject_train.txt), training activity data set (y_train.txt)
    - column_labels.csv: provide column names to the original data sets
