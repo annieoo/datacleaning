@@ -2,7 +2,7 @@
 
 # Course Project - Getting and Cleaning Data
 
-## Introduction
+## (A) Introduction
 
 This programming project require to write an R script that is able to collect, work with, and clean data sets. There are two data sets to work with - Test and Training. The R script will:
 * merge these two data sets, 
@@ -17,7 +17,7 @@ The result of this project will produce:
 * Cookbook.md file
 
 
-## Pre-requisite (what is needed before running the R script) 
+## (B) Pre-requisite (what is needed before running the R script) 
 
 ### 1) obtain source data
 Two data sets are needed for this purpose:
@@ -62,9 +62,9 @@ The required data sets by the R script are (location and name):
 - download from the Github repository and transfer to the working directory.
 
 
-## The R script: run_analysis.R
+## (C) The R script: run_analysis.R
 
-how to run the R script
+How to run the R script
 -  open R or R-Studio 
 -  at the prompt,load the dplyr library:  
    - library(dplyr)
@@ -72,7 +72,7 @@ how to run the R script
    - source(“run_analysis.R”)
    - The script will run and generate a tidy data set called “TidyData.txt”.
 
-how to read the tidy data set 
+How to read the tidy data set 
 - the data set is in text format. Simply double click on the file to open and view the data.
 - to make it more readable, open the file with MS-Excel. A sample tidy data set in excel format called “TidyData_excel.xlsx” can be download from the Github repository (https://github.com/annieoo/datacleaning).
 - you may read the file using R.
