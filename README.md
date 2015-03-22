@@ -64,15 +64,15 @@ The required data sets by the R script are (location and name):
 
 ## The R script: run_analysis.R
 
-* how to run the R script
+how to run the R script
 -  open R or R-Studio 
 -  at the prompt,load the dplyr library:  
    - library(dplyr)
 -  at the prompt, load/source the R script (make sure the R script is in the working directory):
    - source(“run_analysis.R”)
-   The script will run and generate a tidy data set called “TidyData.txt”.
+   - The script will run and generate a tidy data set called “TidyData.txt”.
 
-* how to read the tidy data set 
+how to read the tidy data set 
 - the data set is in text format. Simply double click on the file to open and view the data.
 - to make it more readable, open the file with MS-Excel. A sample tidy data set in excel format called “TidyData_excel.xlsx” can be download from the Github repository (https://github.com/annieoo/datacleaning).
 - you may read the file using R.
