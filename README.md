@@ -1,6 +1,6 @@
-### README.md
+# README.md
 
-### Course Project - Getting and Cleaning Data
+# Course Project - Getting and Cleaning Data
 
 ## Introduction
 
@@ -19,7 +19,7 @@ The result of this project will produce:
 
 ## Pre-requisite (what is needed before running the R script) 
 
-# 1) obtain source data
+### 1) obtain source data
 Two data sets are needed for this purpose:
 * Test data sets
 * Training data sets
@@ -34,31 +34,31 @@ https://github.com/annieoo/datacleaning
 * training folder - Training Data sets
 
 
-# 2) additional data files  
+### 2) additional data files  
 * column_labels.csv - provide column names to the original data sets. This file is originated from the original data file called features.txt
 * column_label_transform.csv - provide column names to the tidy data sets. The names are transformed to be more descriptive.
 * activity_labels.txt - information only; the R script will use this information and manually transform the activity codes to these labels/names.
 
-# 3) specific file location
+### 3) specific file location
 - download the original data sets or required data sets into the working directory. 
 - create sub directory “./data1” 
-  a) if download and unzip the original data sets, a new folder call “UCI HAR Dataset” will be created. To simplify the naming usage in the R script, rename the folder to “UCIHARDataset”. 
-  b) if download testdata and training folders from Github, create a sub folder called “UCIHARDataset” in “./data1” directory. Rename the folder name from testdata to test and training to train. Then transfer these folders to “./data1/UCIHardataset”
+  - if download and unzip the original data sets, a new folder call “UCI HAR Dataset” will be created. To simplify the naming usage in the R script, rename the folder to “UCIHARDataset”. 
+  - if download testdata and training folders from Github, create a sub folder called “UCIHARDataset” in “./data1” directory. Rename the folder name from testdata to test and training to train. Then transfer these folders to “./data1/UCIHardataset”
 
 
-# 4) data sets
+### 4) data sets
 The required data sets by the R script are (location and name):
 
-./data1/UCIHARDataset/train/X_train.txt
-./data1/UCIHARDataset/train/y_train.txt
-./data1/UCIHARDataset/train/subject_train.txt
-./data1/UCIHARDataset/test/X_test.txt
-./data1/UCIHARDataset/test/y_test.txt
-./data1/UCIHARDataset/test/subject_test.txt
-./data1/UCIHARDataset/column_labels.csv
-./data1/UCIHARDataset/column_label_transform.csv
+- ./data1/UCIHARDataset/train/X_train.txt
+- ./data1/UCIHARDataset/train/y_train.txt
+- ./data1/UCIHARDataset/train/subject_train.txt
+- ./data1/UCIHARDataset/test/X_test.txt
+- ./data1/UCIHARDataset/test/y_test.txt
+- ./data1/UCIHARDataset/test/subject_test.txt
+- ./data1/UCIHARDataset/column_labels.csv
+- ./data1/UCIHARDataset/column_label_transform.csv
 
-# 5) the R script: run_analysis.R
+### 5) the R script: run_analysis.R
 
 
 ## The R script: run_analysis.R
