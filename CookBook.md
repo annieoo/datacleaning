@@ -28,7 +28,7 @@ These signals were used to estimate variables of the feature vector for each pat
 - prefix f indicate frequency domain signals
 
 ```
-Accelerometer		Gyroscope         Total variables (33)tBodyAcc-XYZ		tBodyGyro-XYZ		6tGravityAcc-XYZ	        		        3tBodyAccJerk-XYZ	tBodyGyroJerk-XYZ	6tBodyAccMag	        tBodyGyroMag		2tGravityAccMag					1tBodyAccJerkMag		tBodyGyroJerkMag	2fBodyAcc-XYZ		fBodyGyro-XYZ		6fBodyAccJerk-XYZ		                3fBodyAccMag	        fBodyGyroMag		2fBodyAccJerkMag		fBodyGyroJerkMag	2
+Accelerometer		Gyroscope         Total variables (33)tBodyAcc-XYZ		tBodyGyro-XYZ		6tGravityAcc-XYZ	        		        3tBodyAccJerk-XYZ	tBodyGyroJerk-XYZ	6tBodyAccMag	        tBodyGyroMag		2tGravityAccMag				        1tBodyAccJerkMag		tBodyGyroJerkMag	2fBodyAcc-XYZ		fBodyGyro-XYZ		6fBodyAccJerk-XYZ		                3fBodyAccMag	        fBodyGyroMag		2fBodyAccJerkMag		fBodyGyroJerkMag	2
 ```
 
 The set of variables that were estimated from these signals are: 
